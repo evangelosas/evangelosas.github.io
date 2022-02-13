@@ -1,4 +1,12 @@
+
 ## Welcome to GitHub Pages
+
+<h2>{{ site.data.navbar.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.navbar.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
 
 UNDER CONSTRUCTION!
 

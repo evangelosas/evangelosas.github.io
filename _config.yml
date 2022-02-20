@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+
+#https://github.com/kurtsson/jekyll-multiple-languages-plugin
+plugins:
+  - jekyll-multiple-languages-plugin
+languages: ["en", "gr"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
